@@ -55,9 +55,9 @@ print(test_input.shape, test_target.shape)
 """## 로지스틱 회귀
 
 ## $$ z = a \times weight + b \times length + c \times diagonal + d \times height + e \times width + f $$
-## $$z= ax_0 + bx_1 + cx_2 + dx_3 + ex_4 + fx_5 + g $$
+## $$z= ax_0 + bx_1 + cx_2 + dx_3 + ex_4 + ㄹ + g $$
 
-## $$z= w_0x_0 + w_1x_1 + w_2x_2 + w_3x_3 + w_4x_4 + w_5x_5 + b $$
+## $$z= w_0x_0 + w_1x_1 + w_2x_2 + w_3x_3 + w_4x_4 + b $$
 
 ## Sigmoid
 ## $$ \theta = \frac {1}{ 1+e^{-z}} $$
