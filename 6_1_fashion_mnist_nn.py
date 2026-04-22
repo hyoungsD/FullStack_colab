@@ -186,8 +186,8 @@ model.evaluate(x_test, y_test)
 
 model1.evaluate(x_test, y_test)
 
-model.save('fmnist_nn.h5')
+model.save('fmnist_nn.keras')
 
-model3 = models.load_model('fmnist_nn.h5')
+model3 = models.load_model('fmnist_nn.keras')
 
 model3.summary()
